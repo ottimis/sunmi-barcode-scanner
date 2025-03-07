@@ -1,6 +1,6 @@
 {
   "name": "@ottimis/sunmi-barcode-scanner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to use SunMI barcode scanner with Ionic App",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "SunmiBarcodeScanner.podspec"
+    "OttimisSunmiBarcodeScanner.podspec"
   ],
   "author": "mmoriani",
   "license": "MIT",
