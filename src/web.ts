@@ -1,10 +1,14 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { SunmiBarcodePlugin } from './definitions';
+import type {ScanOptions, SunmiBarcodePlugin} from './definitions';
 
 export class SunmiBarcodeWeb extends WebPlugin implements SunmiBarcodePlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async hasScanner(): Promise<{ value: boolean }> {
+      return { value: false };
+  }
+
+  async scan(options: ScanOptions): Promise<{ value: string, type: string }> {
+    options;
+    return { value: '', type: '' };
   }
 }

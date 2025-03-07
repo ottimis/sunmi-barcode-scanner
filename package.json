@@ -1,5 +1,5 @@
 {
-  "name": "sunmi-barcode-scanner",
+  "name": "@ottimis/sunmi-barcode-scanner",
   "version": "0.0.1",
   "description": "Plugin to use SunMI barcode scanner with Ionic App",
   "main": "dist/plugin.cjs.js",
